@@ -1,0 +1,110 @@
+@import url(./__link/place__link.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__url-heading/place_url-heading_.css);
+@import url(./__website/place__website.css);
+@import url(./__grid-item/place__grid-item.css);
+@import url(./__image/);
+
+
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, min-content);
+  column-gap: 40px;
+  row-gap: 48px;
+  padding: 0 148px 80px;
+  justify-content: start;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}
+
+.place__title {
+  color: #ffffff;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 1.06;
+  align-self: end;
+  margin: 0;
+}
+
+.place__website {
+  align-self: end;
+}
+
+.place__url-heading {
+  color: #aaaaaa;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: .2em;
+  text-transform: uppercase;
+}
+
+.place__link {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.22;
+  text-decoration-line: underline;
+}
+
+.place__image {
+  width: 100%;
+  height: auto;
+}
+
+.place__grid-item {
+
+}
+
+.place__paragraph {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.67;
+}
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .place {
+    padding: 0 48px 80px;
+  }
+}
+ 
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+
+  .place__title {
+    font-size: 42px;
+  }
+
+  .place {
+    padding: 0 24px 72px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+
+  .place {
+    padding: 0;
+  }
+}
+
+
+
