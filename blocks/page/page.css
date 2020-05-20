@@ -59,6 +59,14 @@
 
 .page {
   background-color: #2A2C2F;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  outline: red solid 1px;
+  outline-offset: -16px;
+  font-family: "Inter", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 

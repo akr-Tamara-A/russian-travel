@@ -24,7 +24,7 @@
     </a>
     <ul class="header__lang-list">
       <li class="header__lang-item">
-        <a href="#" class="header__lang-link">Ru</a>
+        <a href="#" class="header__lang-link header__lang-link_disabled">Ru</a>
       </li>
       <li class="header__lang-item">
         <a href="#" class="header__lang-link">En</a>
@@ -33,10 +33,13 @@
   </header>
   <main class="main">
     <section class="lead">
-      <h1 class="lead__title">Путешествия по России</h1>
-      <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
-      <img src="./images/lead__background__polka.jpg" class="lead__image">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <h1 class="lead__title">Путешествия по&nbspРоссии</h1>
+      <h3 class="lead__subtitle">Настоящая&nbspстрана&nbspне&nbspв&nbspвыпусках новостей,&nbspа&nbspздесь.</h3>
+      <div class="lead_image-container">
+        <img src="./images/lead__background__polka.jpg" class="lead__image">
+        <img src="./images/lead__splash.svg" class="lead__splash">
+        <p class="lead__caption">ваша полка — верхняя</p>
+      </div>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -98,7 +101,7 @@
         <h2 class="place__title place__grid-item">Куршская коса</h2>
         <div class="place__website place__grid-item">
           <h4 class="place__url-heading">url</h4>
-          <a href="#" class="place__link">park-kosa.ru</a>
+          <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
         </div>
         <img src="./images/place__image_01-kosa.jpg" alt="" class="place__image place__grid-item">
         <div class="place__grid-item">
@@ -113,7 +116,7 @@
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
           <h4 class="place__url-heading">url</h4>
-          <a href="#" class="place__link">National Geographic</a>
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
         </div>
         <img src="./images/place__image_02-kolsky.jpg" alt="" class="place__image">
         <div class="place__grid-item">
@@ -129,7 +132,7 @@
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
           <h4 class="place__url-heading">url</h4>
-          <a href="#" class="place__link">Facebook</a>
+          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
         </div>
         <img src="./images/place__image_03-altai.jpg" alt="" class="place__image">
         <div class="place__grid-item">
@@ -144,7 +147,7 @@
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
           <h4 class="place__url-heading">url</h4>
-          <a href="#" class="place__link">https://vk.com/baikalmile</a>
+          <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
         </div>
         <img src="./images/place__image_04-winter-baikal.jpg" alt="" class="place__image">
         <div class="place__grid-item">
@@ -159,7 +162,7 @@
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
           <h4 class="place__url-heading">url</h4>
-          <a href="#" class="place__link">http://vodlozero.ru/</a>
+          <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
         </div>
         <img src="./images/place__image_05-karelia.jpg" alt="" class="place__image">
         <div class="place__grid-item">
@@ -173,9 +176,12 @@
     </section>
 
     <section class="cover">
-      <h2 class="cover__title">До Байкала «на собаках»</h2>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+      <div class="cover__container">
+        <h2 class="cover__title">До&nbspБайкала «на&nbspсобаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
+      </div>
       <img src="./images/cover__background__trains.jpg" alt="" class="cover__background">
+      <div class="cover__overlay"></div>
     </section>
   </main>
 
