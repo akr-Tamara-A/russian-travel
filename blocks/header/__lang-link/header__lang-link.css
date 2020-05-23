@@ -4,6 +4,7 @@
   font-weight: normal;
   line-height: 1.17;
   text-decoration: none;
+  -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
 

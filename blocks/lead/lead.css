@@ -7,6 +7,7 @@
 .lead {
   padding: 0 calc((148 / 1280) * 100%) 0;
   margin: 0 0 92px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 

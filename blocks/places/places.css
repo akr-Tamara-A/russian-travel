@@ -1,6 +1,7 @@
 .places {
   margin: 0 0 92px;
   padding: 0 148px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 

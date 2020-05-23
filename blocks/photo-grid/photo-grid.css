@@ -6,6 +6,7 @@
 
 .photo-grid {
   padding: 0 48px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 0 92px;
 }

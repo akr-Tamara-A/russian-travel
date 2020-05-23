@@ -7,10 +7,12 @@
 
 .header {
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
   margin: 28px 0 56px;
   padding: 0 48px;
   width: 100%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 

@@ -6,6 +6,7 @@
 
 .footer {
   display: flex;
+  -webkit-box-pack: justify;
   justify-content: space-between;
   padding: 0 48px;
   margin: 0 0 24px;
@@ -21,6 +22,8 @@
 
 @media screen and (max-width : 720px) {
   .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
     flex-direction: column;
   }
 }
