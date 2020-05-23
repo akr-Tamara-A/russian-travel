@@ -1,0 +1,24 @@
+.header__lang-link {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.17;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.header__lang-link:hover {
+  border-bottom: 1px solid #fff;
+  opacity: .8;
+}
+
+.header__lang-link_disabled {
+  border-bottom: 1px solid #fff;
+  cursor: default;
+}
+
+@media screen and (max-width :600px) {
+  .header__lang-link {
+    font-size: 16px;
+  }
+}

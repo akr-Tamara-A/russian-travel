@@ -1,37 +1,7 @@
 @font-face {
   font-family: 'Inter';
-  src: url(../../vendor/Inter-Thin-slnt=0.ttf) format('truetype');
-  font-weight: 100;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(../../vendor/Inter-ExtraLight-slnt=0.ttf) format('truetype');
-  font-weight: 200;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(../../vendor/Inter-Light-slnt=0.ttf) format('truetype');
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: 'Inter';
   src: url(../../vendor/Inter-Regular-slnt=0.ttf) format('truetype');
   font-weight: 400;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(../../vendor/Inter-Medium-slnt=0.ttf) format('truetype');
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url(../../vendor/Inter-SemiBold-slnt=0.ttf) format('truetype');
-  font-weight: 600;
 }
 
 @font-face {
@@ -42,26 +12,13 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url(../../vendor/Inter-ExtraBold-slnt=0.ttf) format('truetype');
-  font-weight: 800;
-}
-
-@font-face {
-  font-family: 'Inter';
   src: url(../../vendor/Inter-Black-slnt=0.ttf) format('truetype');
   font-weight: 900;
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url(../../vendor/Inter-VariableFont_slnt\,wght.ttf) format('truetype');
-}
 
 .page {
   background-color: #2A2C2F;
-  position: relative;
-  outline: goldenrod solid 1px;
-  outline-offset: -48px;
   max-width: 1280px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;

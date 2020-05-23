@@ -1,8 +1,7 @@
 @import url(./__links/footer__links.css);
 @import url(./__item/footer__item.css);
-@import url(./__link/);
+@import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
-
 
 
 .footer {
@@ -12,72 +11,16 @@
   margin: 0 0 24px;
 }
 
-.footer__links {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.footer__item {
-  margin: 0 18px 0 0;
-}
-
-.footer__item:last-child {
-  margin: 0;
-}
-
-.footer__link {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.12;
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer__copyright {
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.14;
-  margin: 0;
-  color: #fff;
-  text-decoration: none;
-}
 
 @media screen and (max-width : 980px) {
   .footer {
     padding: 0 24px;
     margin: 0 0 24px;
   }
-
-  .footer__link {
-    font-size: 16px;
-    line-height: 1;
-  }
-
 }
 
 @media screen and (max-width : 720px) {
   .footer {
     flex-direction: column;
-  }
-
-  .footer__links {
-    flex-direction: column;
-    margin-bottom: 48px;
-  }
-
-  .footer__item {
-    margin: 0 0 32px;
-  }
-
-  .footer__link {
-    font-size: 24px;
-    line-height: 1;
-  }
-
-  .footer__copyright {
-    font-size: 14px;
-    line-height: 1;
   }
 }

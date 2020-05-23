@@ -1,50 +1,14 @@
-@import url(./__title/);
-@import url(./__text/);
-@import url(./__list/);
-@import url(./__item/);
-@import url(./__item-span/);
+@import url(./__title/./intro__title.css);
+@import url(./__text/./intro__text.css);
+@import url(./__list/./intro__list.css);
+@import url(./__item/./intro__item.css);
+@import url(./__item-span/./intro__item-span.css);
 
 
 .intro {
   margin: 0 0 92px;
   padding: 0 148px;
   box-sizing: border-box;
-}
-
-.intro__title {
-  color: #fff;
-  font-size: 54px;
-  font-weight: 900;
-  line-height: 1.07;
-  margin: 0 0 40px;
-  max-width: 690px;
-}
-
-.intro__text {
-  color: #fff;
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.62;
-  margin: 0 0 32px;
-  max-width: 690px;
-}
-
-.intro__list {
-  list-style-type: none;
-  padding: 0;
-  max-width: 690px;
-}
-
-.intro__item {
-  color: #fff;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
-.intro__item-span {
-  font-weight: normal;
-  
 }
 
 
@@ -54,40 +18,7 @@
   }
 }
 
-@media screen and (max-width : 768px) {
-  .intro__title {
-    max-width: 720px;
-  }
-
-  .intro__text {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width : 740px) {
-  .intro__title {
-    font-size: 40px;
-    line-height: 1.09;
-  }
-}
-
-@media screen and (max-width : 600px) {
-  .intro__title {
-    font-size: 36px;
-    line-height: 1.09;
-  }
-}
-
-@media screen and (max-width : 425px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 1.09;
-  }
-}
-
-
-
-@media screen and (max-width :980px) {
+@media screen and (max-width :900px) {
   .intro {
     padding: 0 24px;
     margin-bottom: 88px;

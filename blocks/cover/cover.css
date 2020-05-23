@@ -4,14 +4,12 @@
 
 
 .cover {
-  position: relative;
   padding: 0;
   margin: 0 48px 92px;
   box-sizing: border-box;
-
   outline: red solid 1px;
   height: calc((740 / 1184) * 100vw);
-
+  max-height: 740px;
   background-image: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),
                     url(../../images/cover__background__trains.jpg);
   background-size: cover;

@@ -1,8 +1,8 @@
-@import url(./__logo-link/);
-@import url(./__logo/);
-@import url(./__lang-list/);
-@import url(./__lang-item/);
-@import url(./__lang-link/);
+@import url(./__logo-link/header__logo-link.css);
+@import url(./__logo/header__logo.css);
+@import url(./__lang-list/header__lang-list.css);
+@import url(./__lang-item/header__lang-item.css);
+@import url(./__lang-link/header__lang-link.css);
 
 
 .header {
@@ -14,58 +14,12 @@
   box-sizing: border-box;
 }
 
-.header__logo-link {
-  transition: all .3s ease;
-}
-
-.header__logo {
-  width: 100%;
-  max-width: 176px;
-}
-
-.header__logo-link:hover {
-  opacity: .8;
-}
-
-.header__lang-list {
-  list-style-type: none;
-  display: flex;
-}
-
-.header__lang-item {
-  margin: 0 18px 0 0;
-}
-
-.header__lang-item:last-child {
-  margin: 0;
-}
-
-.header__lang-link {
-  color: #fff;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 1.17;
-  text-decoration: none;
-  transition: all .3s ease;
-}
-
-.header__lang-link:hover {
-  border-bottom: 1px solid #fff;
-  opacity: .8;
-}
-
-.header__lang-link_disabled {
-  border-bottom: 1px solid #fff;
-  cursor: default;
-}
-
 
 @media screen and (max-width : 1024px) {
   .header {
     margin-bottom: 48px;
   }
 }
-
 
 @media screen and (max-width :980px) {
  .header {
@@ -77,14 +31,6 @@
   .header {
     padding: 0 16px;
     margin-top: 16px;
-  }
-  
-  .header__logo {
-    max-width: 142px;
-  }
-  
-  .header__lang-link {
-    font-size: 16px;
   }
 }
 
