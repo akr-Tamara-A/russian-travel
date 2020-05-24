@@ -12,6 +12,7 @@
   justify-content: space-between;
   margin: 28px auto 56px;
   width: calc(100% - 2 * 48px);
+  max-width: 1280px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
