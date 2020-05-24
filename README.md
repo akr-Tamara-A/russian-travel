@@ -5,7 +5,7 @@
 
 ***
 
-Ссылка на готовый сайт [https://akr-tamara-a.github.io/russian-travel/]
+Ссылка на готовый сайт https://akr-tamara-a.github.io/russian-travel/
 
 ***
 
