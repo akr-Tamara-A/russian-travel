@@ -1,7 +1,7 @@
 .header__lang-link {
   color: #fff;
   font-size: 24px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 1.17;
   text-decoration: none;
   -webkit-transition: opacity .3s ease;
@@ -14,7 +14,7 @@
   opacity: .8;
 }
 
-.header__lang-link_disabled {
+.header__lang-link_active {
   border-bottom: 1px solid #fff;
   cursor: default;
 }

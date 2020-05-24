@@ -1,0 +1,19 @@
+.lead__image-box {
+  width: 100%;
+  max-width: calc(100% - 2 * 148px);
+  margin: 0 auto;
+  display: block;
+}
+
+
+@media screen and (max-width : 1024px) {
+  .lead__image-box {
+    max-width: calc(100% - 2 * 48px);
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .lead__image-box {
+    max-width: 100%;
+  }
+}

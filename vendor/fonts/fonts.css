@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular-slnt0.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Inter-Regular-slnt0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Inter-Regular-slnt0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Inter-Regular-slnt0.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Inter-Regular-slnt0.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Bold-slnt0.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Inter-Bold-slnt0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Inter-Bold-slnt0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Inter-Bold-slnt0.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Inter-Bold-slnt0.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Black-slnt0.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Inter-Black-slnt0.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Inter-Black-slnt0.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Inter-Black-slnt0.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Inter-Black-slnt0.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: 900;
+  font-style: normal;
+}
+
