@@ -37,7 +37,19 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по&nbsp;России</h1>
       <h3 class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</h3>
-      <img src="./images/lead__background__polka.jpg" alt="Девушка спит, отвернувшись к стенке, на боковой нижней полке в плацкартном вагоне" 
+      <img  
+           srcset="
+                  ./images/lead__background__polka_320w.jpg 320w, 
+                  ./images/lead__background__polka_540w.jpg 540w,
+                  ./images/lead__background__polka_768w.jpg 768w,
+                  ./images/lead__background__polka_984w.jpg 984w"
+           sizes="
+                  (max-width : 320px) 320px,
+                  (max-width : 540px) 540px,
+                  (max-width : 768px) 768px,
+                  984px"
+           
+           alt="Девушка спит отвернувшись к стенке на боковой нижней полке в плацкартном вагоне" 
            class="lead__image">
       <p class="lead__caption">ваша полка — верхняя</p>
     </section>

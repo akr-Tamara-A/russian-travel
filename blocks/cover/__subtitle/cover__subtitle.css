@@ -6,6 +6,7 @@
   text-align: center;
   margin: 0;
   max-width: 360px;
+  z-index: 2;
 }
 
 
