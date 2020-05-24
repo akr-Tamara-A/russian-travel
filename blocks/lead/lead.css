@@ -5,28 +5,10 @@
 
 
 .lead {
-  padding: 0 calc((148 / 1280) * 100%) 0;
-  margin: 0 0 92px;
+  width: 100%;
+  margin: 0 auto 92px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-
-@media screen and (max-width : 1024px) {
-  .lead {
-    padding: 0 48px;
-  }
-}
-
-@media screen and (max-width : 900px) {
-  .lead {    
-    padding: 0 24px;
-  }
-}
-
-@media screen and (max-width : 425px) {
-  .lead {
-    padding: 0 16px;
-  }
-}
 

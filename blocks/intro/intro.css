@@ -6,28 +6,28 @@
 
 
 .intro {
-  margin: 0 0 92px;
-  padding: 0 148px;
+  margin: 0 auto 92px;
+  width: calc(100% - 2 * 148px);
   box-sizing: border-box;
 }
 
 
 @media screen and (max-width : 1024px) {
   .intro {
-    padding: 0 48px;
+    width: calc(100% - 2 * 48px);
   }
 }
 
 @media screen and (max-width :900px) {
   .intro {
-    padding: 0 24px;
+    width: calc(100% - 2 * 24px);
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width :600px) {
   .intro {
-    padding: 0 16px;
+    width: calc(100% - 2 * 16px);
     margin-bottom: 64px;
   }
 }

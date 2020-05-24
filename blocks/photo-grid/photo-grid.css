@@ -5,22 +5,22 @@
 
 
 .photo-grid {
-  padding: 0 48px;
+  max-width: calc(100% - 2 * 48px);
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  margin: 0 0 92px;
+  margin: 0 auto 92px;
 }
 
-@media screen and (max-width :980px) {
+@media screen and (max-width :900px) {
   .photo-grid {
-    padding: 0 24px;
+    max-width: calc(100% - 2 * 24px);
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width :600px) {
   .photo-grid {
-    padding: 0 16px;
+    max-width: calc(100% - 2 * 16px);
     margin-bottom: 64px;
   }
 }
