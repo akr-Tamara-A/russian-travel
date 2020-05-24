@@ -1,6 +1,12 @@
 ***
+
 # Проект 3: Путешествие по России
 ##### Проект одностраничного сайта для [Яндекс Практикума](https://praktikum.yandex.ru/) по [макету в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0).
+
+***
+
+Ссылка на готовый сайт [https://akr-tamara-a.github.io/russian-travel/]
+
 ***
 
 ## При верстке проекта были использованы следующие технологии:
