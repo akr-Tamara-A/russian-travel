@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, -webkit-max-content);
-  grid-template-rows: repeat(2, max-content);
+  grid-template-rows: max-content 1fr;
   -webkit-column-gap: 40px;
      -moz-column-gap: 40px;
   column-gap: 40px;
@@ -31,16 +31,16 @@
   }
 }
 
-@media screen and (max-width: 619px) {
+@media screen and (max-width: 600px) {
   .place {
     margin: 0 0 48px;
-    grid-template-columns: 1fr;
-    row-gap: 32px;
+    
   }
 }
 
 @media screen and (max-width : 500px) {
   .place {
+    grid-template-columns: 1fr;
     row-gap: 32px;
   }
 }
