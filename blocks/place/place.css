@@ -9,9 +9,9 @@
 
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: minmax(min-content, 1fr) 1fr;
   grid-template-rows: repeat(2, -webkit-max-content);
-  grid-template-rows: max-content 1fr;
+  grid-template-rows: repeat(2, max-content);
   -webkit-column-gap: 40px;
      -moz-column-gap: 40px;
   column-gap: 40px;
